@@ -23,7 +23,7 @@ def get_rsi_and_ema(prices):
 
 def send_signal(msg):
     url = f"https://api.telegram.org/bot{7968068833:AAErR3bUAGr2i4EY1IEdZu_nw3cmt97JReE}/sendMessage"
-    data = {'chat_id': 123456789, 'text': msg}
+    data = {'chat_id': 1475169664, 'text': msg}
     requests.post(url, data=data)
 
 # Simulasi harga (karena tidak ada MT5)
